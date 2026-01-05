@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@layer base {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        color: #fff;
+        background-color: rgb(1, 18, 43);
+        font-family: "Inter", sans-serif;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
+.badge {
+  @apply absolute -top-2 -right-2 text-xs px-1.5 rounded-full;
+}
