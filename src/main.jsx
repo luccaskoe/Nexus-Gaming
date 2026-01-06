@@ -9,7 +9,7 @@ import { UserProvider } from './components/context/UserContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Nexus-Gaming/">
       <UserProvider>
         <FavoritesProvider>
           <CartProvider>

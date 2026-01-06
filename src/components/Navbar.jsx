@@ -21,7 +21,7 @@ function Navbar({ onOpenCart, onOpenFavorites, onOpenUser }) {
         {/* LOGO */}
 
         <Link to="/" className="text-2xl font-bold text-blue-500">
-          Noxus <span className="text-purple-500">Gamers</span>
+          Nexus <span className="text-purple-500">Gaming</span>
         </Link>
 
         {/* NAVEGAÇÃO DESKTOP */}
