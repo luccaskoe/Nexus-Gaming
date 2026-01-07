@@ -1,4 +1,4 @@
-var _s = $RefreshSig$();
+import React from "react";
 import {  X, Trash  } from "lucide-react";
 import { useCart } from "./context/CartContext"; 
 
